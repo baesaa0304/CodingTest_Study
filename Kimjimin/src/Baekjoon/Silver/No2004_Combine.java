@@ -31,6 +31,7 @@ public class No2004_Combine {
 			cnt += (n / 5);
 			n /= 5;
 		}
+		
 		return cnt;
 	}
 
