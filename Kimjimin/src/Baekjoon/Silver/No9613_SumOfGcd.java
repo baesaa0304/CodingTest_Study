@@ -8,6 +8,7 @@ public class No9613_SumOfGcd {
 	public static void main(String[] args) throws IOException {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		int t = Integer.parseInt(br.readLine());
 		
@@ -28,17 +29,19 @@ public class No9613_SumOfGcd {
 				for(int j = i + 1; j < arr.length; j++) {
 					// 최대공약수 함수 호출 및 합
 					result += getGcd(arr[i],arr[j]);
-					System.out.println("확인 :" + result);
+					//System.out.println("확인 :" + result);
 				}
 			}
-			System.out.println(result + "\n");
+			bw.write(result + "\n");
 		}
+		bw.flush();
+		bw.close();
 		
 	}
 
 	// 최대공약수 함수.
 	private static long getGcd(int a, int b) {
-		System.out.println("함수 확인: a="+ a + "b=" + b);
+		//System.out.println("함수 확인: a="+ a + "b=" + b);
 		
 		if(a % b == 0) return b;
 		
