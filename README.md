@@ -33,6 +33,13 @@
 
 문제를 풀고 PR을 올리면 깃허브에 자동으로 올라갑니다.
 
+1. PR 제목 작성 예시:  
+   ![image](https://github.com/user-attachments/assets/1311766a-5933-4aca-89b6-6def19825135)  
+
+2. PR 병합 시 제목 수정 예시:  
+   ![image](https://github.com/user-attachments/assets/f492fa66-b1ba-4ad9-b426-d918c1a87d95)
+
+   
 - 월 : 공유한 문제 풀기
 - 화 ~ 금 : '✅ 문제' 에 있는거 순서대로 풀기
 - 토요일 : 한 주동안 가장 어려웠거나 다시 풀어보고 싶은 문제 풀기 → ***회고***
