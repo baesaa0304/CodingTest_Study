@@ -34,10 +34,12 @@
 문제를 풀고 PR을 올리면 디스코드에 자동으로 알림이 올라갑니다.
 
 1. PR 제목 작성 예시:  
-   ![image](https://github.com/user-attachments/assets/1311766a-5933-4aca-89b6-6def19825135)  
+   ![image](https://github.com/user-attachments/assets/f9dd002b-d487-4a2c-97cd-88293cc63f56)
+
 
 2. PR 병합 시 제목 수정 예시:  
-   ![image](https://github.com/user-attachments/assets/f492fa66-b1ba-4ad9-b426-d918c1a87d95)
+   ![image](https://github.com/user-attachments/assets/6d7ff17e-d6be-44e4-937d-6c3ef1143c43)
+
 
    
 - 월 : 공유한 문제 풀기
@@ -60,5 +62,3 @@
 - ***참여불가능시 일요일까지 말하기!***
 - 1일 1커밋
 
-## 🏢 회의방
-[Join the CodingTest Discord Server!](https://discord.gg/tyCj59Ce)
