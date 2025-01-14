@@ -18,7 +18,7 @@ public class baekjoon_1212 {
 	                sb.append(binary);
 	            } else {
 	                // 나머지 숫자: 3자리로 맞춤
-	                while (binary.length() < 3) {
+	                while (binary.length() < 3){
 	                    binary = "0" + binary; // 앞에 0을 채움
 	                }
 	                sb.append(binary);
