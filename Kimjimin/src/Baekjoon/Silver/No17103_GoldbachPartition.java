@@ -24,7 +24,7 @@ public class No17103_GoldbachPartition {
 			
 			// 판별
 			// 순서만 다르고 두 소수가 같은 경우는 같은 파티션임으로 N/2한다.
-			for(int i = 2; i < num/2; i++) {
+			for(int i = 2; i <= num/2; i++) {
 				// 모두 소수인지 확인
 				if(!prime[i] && !prime[num-i]) {
 					System.out.println(i+ "," + (num-i));
