@@ -31,12 +31,12 @@ public class No1463_MakeOne {
 	static int dynamic(int n) {
 		
 		if(dp[n] == null) {
-			if(n % 2 == 0) {
-				dp[n] = Math.min(dynamic(n/2), dynamic(n-1)) + 1;
+			if(n % 6 == 0) {
+				dp[n] = Math.min(dynamic(n-1), Math.min(dynamic(n/2), dynamic(n/3))) + 1;
 			}else if(n % 3 == 0) {
 				dp[n] = Math.min(dynamic(n/3), dynamic(n-1)) + 1;
-			}else if(n % 6 == 0) {
-				dp[n] = Math.min(dynamic(n-1), Math.min(dynamic(n/2), dynamic(n/3))) + 1;
+			}else if(n % 2 == 0) {
+				dp[n] = Math.min(dynamic(n/2), dynamic(n-1)) + 1;
 			}
 			// 이외 -1 연산만 하는 경우
 			else {
