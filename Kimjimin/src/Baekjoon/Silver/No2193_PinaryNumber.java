@@ -9,7 +9,7 @@ public class No2193_PinaryNumber {
 		int n = sc.nextInt();
 		
 		// dp[] 선언 및 초기화
-		int[] dp = new int[n+1];
+		long[] dp = new long[n+1];
 		
 		dp[1] = 1;
 		
