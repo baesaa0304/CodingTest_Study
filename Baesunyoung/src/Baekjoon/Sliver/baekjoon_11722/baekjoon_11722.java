@@ -1,4 +1,4 @@
-package baekjoon_11722;
+package Baekjoon.Sliver.baekjoon_11722;
 
 import java.io.*;
 import java.util.*;
