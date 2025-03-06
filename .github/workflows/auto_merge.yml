@@ -9,7 +9,7 @@ name: Auto Merge PR at 11:30 PM
 
 on:
   schedule:
-    - cron: "30 14 * * *"  # UTC 14:30 → 한국 시간(KST) 23:30 (오후 11시 30분)
+   - cron: "1 14 * * *"  # 매일 오후 11시 5분(KST)에 실행 (UTC 기준 14:05)
   workflow_dispatch:  # 수동 실행도 가능하도록 설정
 
 jobs:
