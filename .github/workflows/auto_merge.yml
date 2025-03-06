@@ -1,0 +1,26 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+# This workflow will build a Java project with Gradle and cache/restore any dependencies to improve the workflow execution time
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-gradle
+
+name: Auto Merge PR at 11:30 PM
+
+on:
+  schedule:
+    - cron: "30 14 * * *"  # UTC 14:30 → 한국 시간(KST) 23:30 (오후 11시 30분)
+  workflow_dispatch:  # 수동 실행도 가능하도록 설정
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Enable auto-merge for PRs
+        run: gh pr merge --auto --squash $(gh pr list --state open --json number --jq '.[].number')
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
