@@ -1,15 +1,8 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-# This workflow will build a Java project with Gradle and cache/restore any dependencies to improve the workflow execution time
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-gradle
-
-name: Auto Merge PR at 11:05 PM
+name: Auto Merge Feature PRs
 
 on:
   schedule:
-    - cron: "5 14 * * *"  # 매일 오후 11시 5분(KST)에 실행
+    - cron: "15 14 * * *"  # 매일 오후 11시 5분(KST)에 실행 (UTC 기준 14:05)
   workflow_dispatch:  # 수동 실행도 가능하게 설정
 
 jobs:
@@ -20,9 +13,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Merge all open PRs
+      - name: Merge feature PRs
         run: |
-          for pr in $(gh pr list --state open --json number --jq '.[].number'); do
+          for pr in $(gh pr list --state open --json number,headRefName --jq '.[] | select(.headRefName | test("^feature/")) | .number'); do
             gh pr merge --auto --squash $pr
           done
         env:
