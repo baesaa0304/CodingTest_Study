@@ -6,7 +6,7 @@ on:
       - main  # 모든 PR이 'main' 브랜치로 들어오는 경우만 자동 병합
 
   schedule:
-    - cron: "40 14 * * *"  # 매일 오후 11시 15분(KST)에 실행
+    - cron: "15 14 * * *"  # 매일 오후 11시 15분(KST)에 실행
 
   workflow_dispatch:  # 수동 실행 가능
 
@@ -23,7 +23,7 @@ jobs:
           echo "Listing PRs targeting 'main'..."
           gh pr list --state open --json number,baseRefName --jq '.[] | select(.baseRefName == "main") | .number'
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PERSONAL_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PERSONAL_TOKEN }}  # ✅ GH_TOKEN 설정 (GitHub CLI 인증 오류 해결)
 
       - name: Merge all PRs targeting 'main' (force commit)
         run: |
@@ -33,4 +33,4 @@ jobs:
             gh pr merge --squash --admin $pr  # 즉시 병합 & 자동 커밋
           done
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PERSONAL_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PERSONAL_TOKEN }}  # ✅ GH_TOKEN 설정 (GitHub CLI 인증 오류 해결)
