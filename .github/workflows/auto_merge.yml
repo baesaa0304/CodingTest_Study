@@ -13,6 +13,8 @@ on:
 jobs:
   auto-merge:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GH_PERSONAL_TOKEN }}  # ✅ GH_TOKEN을 전체 job에서 사용 가능하도록 설정
 
     steps:
       - name: Checkout repository
@@ -22,8 +24,6 @@ jobs:
         run: |
           echo "Listing PRs targeting 'main'..."
           gh pr list --state open --json number,baseRefName --jq '.[] | select(.baseRefName == "main") | .number'
-        env:
-          GH_TOKEN: ${{ secrets.GH_PERSONAL_TOKEN }}  # ✅ GH_TOKEN 설정 (GitHub CLI 인증 오류 해결)
 
       - name: Merge all PRs targeting 'main' (force commit)
         run: |
@@ -32,5 +32,3 @@ jobs:
             gh pr review --approve $pr  # 필요할 경우 자동 승인 추가
             gh pr merge --squash --admin $pr  # 즉시 병합 & 자동 커밋
           done
-        env:
-          GH_TOKEN: ${{ secrets.GH_PERSONAL_TOKEN }}  # ✅ GH_TOKEN 설정 (GitHub CLI 인증 오류 해결)
