@@ -1,10 +1,13 @@
-name: Auto Merge Feature PRs
+name: Auto Merge PRs to Main
 
 on:
   pull_request:
-    branch : "feature/**"
+    branches:
+      - main  # 모든 PR이 'main' 브랜치로 들어오는 경우만 자동 병합
+
   schedule:
-    - cron: "30 14 * * *"  # 매일 오후 11시 5분(KST)에 실행 (UTC 기준 14:05)
+    - cron: "30 14 * * *"  # 매일 오후 11시 15분(KST)에 실행
+
   workflow_dispatch:  # 수동 실행도 가능하게 설정
 
 jobs:
@@ -15,10 +18,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Merge feature PRs
+      - name: Merge all PRs targeting 'main'
         run: |
-          for pr in $(gh pr list --state open --json number,headRefName --jq '.[] | select(.headRefName | test("^feature/")) | .number'); do
+          for pr in $(gh pr list --state open --json number,baseRefName --jq '.[] | select(.baseRefName == "main") | .number'); do
+            echo "Merging PR #$pr into main..."
             gh pr merge --auto --squash $pr
           done
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PERSONAL_TOKEN }} 
+          GITHUB_TOKEN: ${{ secrets.GH_PERSONAL_TOKEN }}
