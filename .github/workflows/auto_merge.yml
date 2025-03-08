@@ -6,9 +6,9 @@ on:
       - main  # 모든 PR이 'main' 브랜치로 들어오는 경우만 자동 병합
 
   schedule:
-    - cron: "30 14 * * *"  # 매일 오후 11시 15분(KST)에 실행
+    - cron: "40 14 * * *"  # 매일 오후 11시 15분(KST)에 실행
 
-  workflow_dispatch:  # 수동 실행도 가능하게 설정
+  workflow_dispatch:  # 수동 실행 가능
 
 jobs:
   auto-merge:
@@ -18,11 +18,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Merge all PRs targeting 'main'
+      - name: Debug PR List
+        run: |
+          echo "Listing PRs targeting 'main'..."
+          gh pr list --state open --json number,baseRefName --jq '.[] | select(.baseRefName == "main") | .number'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PERSONAL_TOKEN }}
+
+      - name: Merge all PRs targeting 'main' (force commit)
         run: |
           for pr in $(gh pr list --state open --json number,baseRefName --jq '.[] | select(.baseRefName == "main") | .number'); do
             echo "Merging PR #$pr into main..."
-            gh pr merge --auto --squash $pr
+            gh pr review --approve $pr  # 필요할 경우 자동 승인 추가
+            gh pr merge --squash --admin $pr  # 즉시 병합 & 자동 커밋
           done
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PERSONAL_TOKEN }}
