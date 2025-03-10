@@ -3,31 +3,34 @@ name: Auto Merge PRs to Main
 on:
   pull_request:
     branches:
-      - main  # 모든 PR이 'main' 브랜치로 들어오는 경우만 자동 병합
+      - main  # 'main' 브랜치로 들어오는 PR만 자동 병합
 
   schedule:
-    - cron: "30 14 * * *"  # 매일 오후 11시 15분(KST)에 실행
+    - cron: "30 14 * * *"  # 매일 오후 11시 30분(KST)에 실행
 
   workflow_dispatch:  # 수동 실행 가능
 
 jobs:
   auto-merge:
     runs-on: ubuntu-latest
-    env:
-      GH_TOKEN: ${{ secrets.GH_PERSONAL_TOKEN }}  # ✅ GH_TOKEN을 전체 job에서 사용 가능하도록 설정
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Debug PR List
+      - name: Merge all PRs targeting 'main'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # ✅ GitHub 기본 제공 토큰 사용
         run: |
-          echo "Listing PRs targeting 'main'..."
-          gh pr list --state open --json number,baseRefName --jq '.[] | select(.baseRefName == "main") | .number'
+          echo "Checking open PRs targeting 'main'..."
+          prs=$(gh pr list --state open --json number,baseRefName --jq '.[] | select(.baseRefName == "main") | .number')
+          
+          if [[ -z "$prs" ]]; then
+            echo "No open PRs targeting 'main'. Exiting."
+            exit 0
+          fi
 
-      - name: Merge all PRs targeting 'main' (force commit)
-        run: |
-          for pr in $(gh pr list --state open --json number,baseRefName --jq '.[] | select(.baseRefName == "main") | .number'); do
+          for pr in $prs; do
             echo "Merging PR #$pr into main..."
-            gh pr merge --squash --admin $pr  # 즉시 병합 & 자동 커밋
+            gh pr merge --auto --squash $pr
           done
