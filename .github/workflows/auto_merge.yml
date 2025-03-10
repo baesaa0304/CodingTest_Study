@@ -29,6 +29,5 @@ jobs:
         run: |
           for pr in $(gh pr list --state open --json number,baseRefName --jq '.[] | select(.baseRefName == "main") | .number'); do
             echo "Merging PR #$pr into main..."
-            gh pr review --approve $pr  # 필요할 경우 자동 승인 추가
             gh pr merge --squash --admin $pr  # 즉시 병합 & 자동 커밋
           done
