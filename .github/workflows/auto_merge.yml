@@ -6,7 +6,7 @@ on:
       - main  # 모든 PR이 'main' 브랜치로 들어오는 경우만 자동 병합
 
   schedule:
-    - cron: "15 14 * * *"  # 매일 오후 11시 15분(KST)에 실행
+    - cron: "30 14 * * *"  # 매일 오후 11시 15분(KST)에 실행
 
   workflow_dispatch:  # 수동 실행 가능
 
