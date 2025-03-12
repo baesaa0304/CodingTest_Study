@@ -3,7 +3,7 @@ package Baekjoon.Sliver.baekjoon_1476;
 import java.io.*;
 import java.util.*;
 
-public class baekjoon_1476Wrong {
+public class baekjoon_1476_other {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
@@ -15,20 +15,14 @@ public class baekjoon_1476Wrong {
 	}
 	public static int solution(int e , int s ,int m) {
 		int answer = 1;
-		int a = 1;
-		int b = 1;
-		int c = 1;
 		while(true) {
-			if(a == e && b == s && c == m) {
-				break;
-			}
-			else {
-			a = (answer - 1) % 15 + 1;
-			b = (answer - 1) % 28 + 1;
-			c = (answer - 1) % 19 + 1;
-				answer++; 
-			}
+			 if ((answer - 1) % 15 + 1 == e &&
+				(answer - 1) % 28 + 1 == s &&
+		        (answer - 1) % 19 + 1 == m) {
+		      return answer;
+		    }
+			 answer++; 
 		}
-		return answer;
+		
 	}
 }

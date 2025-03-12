@@ -14,15 +14,20 @@ public class baekjoon_1476 {
 
 	}
 	public static int solution(int e , int s ,int m) {
-		int answer = 1;
-		while(true) {
-			 if ((answer - 1) % 15 + 1 == e &&
-				(answer - 1) % 28 + 1 == s &&
-		        (answer - 1) % 19 + 1 == m) {
-		      return answer;
-		    }
-			 answer++; 
+		int answer = 0;
+		int a = 0;
+		int b = 0;
+		int c = 0;
+		while(true) { 
+			answer++;
+			a++; 
+			b++; 
+			c++;
+			if(a == 16) a = 1;
+			if(b == 29) b = 1;
+			if(c == 20) c = 1;
+			if(a == e && b == s && c == m) break;
 		}
-		
+		return answer;
 	}
 }
