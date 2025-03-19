@@ -1,4 +1,4 @@
-package Baekjoon.Silver;
+package Baekjoon.Silver.No9095_Plus;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
