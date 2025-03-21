@@ -1,8 +1,8 @@
-name: Auto Merge PRs at 23:58
+name: Auto Merge PRs
 
 on:
   schedule:
-    - cron: '57 14 * * *' # 한국 시간 밤 11:58 = UTC 14:58
+    - cron: '58 14 * * *' # 매일 밤 11:58 KST
   workflow_dispatch:
 
 jobs:
@@ -13,16 +13,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Setup GitHub CLI
+      - name: Set up GitHub CLI
         uses: cli/cli-action@v2
 
-      - name: Auto Merge All Open PRs
+      - name: Merge All Open PRs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          prs=$(gh pr list --state open --json number --jq '.[].number')
-          
+          prs=$(gh pr list --state open --json number --jq '.[].number' --repo baesaa0304/CodingTest_Study)
+
           for pr in $prs; do
-            echo "Trying to auto-merge PR #$pr"
-            gh pr merge $pr --auto --squash || echo "❌ Failed to merge PR #$pr"
+            echo "🔁 Trying to merge PR #$pr"
+            gh pr merge "$pr" --repo baesaa0304/CodingTest_Study --auto --squash || echo "❌ Failed to merge PR #$pr"
           done
