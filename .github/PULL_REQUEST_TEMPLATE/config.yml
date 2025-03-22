@@ -1,0 +1,5 @@
+pull_request_templates:
+  - name: 🧪 Coding Test PR
+    path: PULL_REQUEST_TEMPLATE/CodingTest.md
+  - name: 🧾 SQL 문제 PR
+    path: PULL_REQUEST_TEMPLATE/SQLTemplate.md
