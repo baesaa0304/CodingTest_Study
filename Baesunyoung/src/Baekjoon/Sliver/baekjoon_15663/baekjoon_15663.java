@@ -4,6 +4,7 @@ import java.util.*;
 import java.io.*;
 
 public class baekjoon_15663 { 
+	
 	static int N, M;
 	static int[] input;
 	static int[] result;
