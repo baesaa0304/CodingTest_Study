@@ -1,0 +1,42 @@
+name: Auto Merge PRs
+
+on:
+  schedule:
+   - cron: '50 14 * * *'  # 매일 밤 11:50 KST
+   - cron: '55 14 * * *'  # 매일 밤 11:55 KST
+  workflow_dispatch:
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install GitHub CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gh
+
+      - name: Merge All Open PRs into main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          prs=$(gh pr list --state open --json number,headRefName,baseRefName \
+            --jq '.[] | select(.baseRefName=="main") | {number, head:.headRefName}' --repo baesaa0304/CodingTest_Study)
+
+          echo "$prs" | jq -c '.' | while read pr; do
+            pr_number=$(echo $pr | jq -r '.number')
+            head_branch=$(echo $pr | jq -r '.head')
+
+            echo "🔁 Checking out PR #$pr_number ($head_branch)"
+
+            # fetch & rebase onto latest main
+            git fetch origin main:$head_branch
+            git checkout $head_branch
+            git rebase origin/main
+
+            echo "🔁 Trying to merge PR #$pr_number"
+            gh pr merge "$pr_number" --repo baesaa0304/CodingTest_Study --squash --admin || echo "❌ Failed to merge PR #$pr_number"
+          done
