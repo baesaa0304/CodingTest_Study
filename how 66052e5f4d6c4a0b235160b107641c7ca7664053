@@ -1,0 +1,542 @@
+[33mcommit 6f50825fd4c4a0b235160b107641c72ca7664053[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/jimin/Baekjoon_6603[m[33m)[m
+Author: jimin Kim <gjimin26@gmail.com>
+Date:   Mon Apr 14 22:52:06 2025 +0900
+
+    정리된 변경사항 커밋: 삭제/수정/신규 ã추가
+
+[33mcommit 039b9d595598130887d8a541ae4c65d0cd3139f1[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_6603[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Mon Apr 14 17:31:17 2025 +0900
+
+    0414(월)_로또
+
+[33mcommit 66c2ac809f7e15958d4e674aac7958acd2d030de[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_10971[m[33m, [m[1;32mfeature/jimin/Baekjoon_10971[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Sat Apr 12 19:11:34 2025 +0900
+
+    0412(토)_3월에 태어난 여성 회원 목록 출력하기
+
+[33mcommit 95ea9ffbdb8ce2d1b30a756d08e5287db7dcd44d[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Fri Apr 11 23:45:49 2025 +0900
+
+    0411(금)_외판원 순회 2
+
+[33mcommit 8754d17cf84603c55a7d4996a9dc61bee2b705e9[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_10819[m[33m, [m[1;32mfeature/jimin/Baekjoon_10819[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Thu Apr 10 22:56:07 2025 +0900
+
+    0410(목)_차이를 최대로
+
+[33mcommit 989a62f836ac248ed37794f8d51fd38e94b57067[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_10974[m[33m, [m[1;32mfeature/jimin/Baekjoon_10974[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Wed Apr 9 21:39:52 2025 +0900
+
+    0409(수)_모든 순열
+
+[33mcommit ec660b4733d980946b6809da4ee07ad9be801896[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_10973[m[33m, [m[1;32mfeature/jimin/Baekjoon_10973[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Tue Apr 8 23:17:20 2025 +0900
+
+    0408(화)_이전 수열
+
+[33mcommit 80595cf27db85f7246b5c0b03dc5c982c646fd69[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_10972[m[33m, [m[1;32mfeature/jimin/Baekjoon_10972[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Mon Apr 7 23:45:52 2025 +0900
+
+    0407(월)_다음 순열
+
+[33mcommit a08e969ea7907e0718da61a1795babd20bcf2a50[m[33m ([m[1;31morigin/feature/jimin/sql/164673[m[33m, [m[1;32mfeature/jimin/sql/164673[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Sat Apr 5 20:55:17 2025 +0900
+
+    0405(토)_조건에 부합하는 중고거래 댓글 조회하기
+
+[33mcommit 8660d46f4cddcb8f26e803392cc89323b070f034[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_15666[m[33m, [m[1;32mfeature/jimin/Baekjoon_15666[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Fri Apr 4 21:37:57 2025 +0900
+
+    0404(금)_N과 M(11)
+
+[33mcommit fcc6b2ac89b61352d1baf74d33393d23ccabf6f4[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_15665[m[33m, [m[1;32mfeature/jimin/Baekjoon_15665[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Thu Apr 3 14:35:09 2025 +0900
+
+    0403(목)_N과 M(11)
+
+[33mcommit e6ef465fc4c4c5d88f215ab11d59f62e5ea78abb[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_15664[m[33m, [m[1;32mfeature/jimin/Baekjoon_15664[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Wed Apr 2 14:34:18 2025 +0900
+
+    0402(수)_N과 M(10)
+
+[33mcommit 188cbfd2e49b8a0998ddfd2ceb9ad13f02bd2523[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_15663[m[33m, [m[1;32mfeature/jimin/Baekjoon_15663[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Tue Apr 1 23:33:01 2025 +0900
+
+    0401(화)_N과 M(9)
+
+[33mcommit e89c974c2ce27bb34a53b1bf1bb4ffb2632d4472[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_15657[m[33m, [m[1;32mfeature/jimin/Baekjoon_15657[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Mon Mar 31 19:04:59 2025 +0900
+
+    0331(월)_N과 M(8)
+
+[33mcommit 900a7458bad803a34af4638c11e141e0b96f50f1[m[33m ([m[1;31morigin/feature/jimin/sql/144853[m[33m, [m[1;32mfeature/jimin/sql/144853[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Sat Mar 29 21:33:10 2025 +0900
+
+    0329(토)_조건에 맞는 도서 리스트 출력하기
+
+[33mcommit 5f3ebc8da34b1dfb2ea6225d6cedac05686b994b[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_15656[m[33m, [m[1;32mfeature/jimin/Baekjoon_15656[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Fri Mar 28 22:19:54 2025 +0900
+
+    0328(금)_N과 M(7)
+
+[33mcommit 68d0c727ed81bf69cfe9625039244a07fbe9a03a[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_15655[m[33m, [m[1;32mfeature/jimin/Baekjoon_15655[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Thu Mar 27 23:39:13 2025 +0900
+
+    0327(목)_N과 M(6)
+
+[33mcommit 9c0f61c2febcb02377c2860ee49d8b0d7dcaf14f[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_15654[m[33m, [m[1;32mfeature/jimin/Baekjoon_15654[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Wed Mar 26 23:09:15 2025 +0900
+
+    0326(수)_N과 M(5)
+
+[33mcommit cbf79b73f11d5e550a9bba9fb972aa5165ab3427[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_15652[m[33m, [m[1;32mfeature/jimin/Baekjoon_15652[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Tue Mar 25 22:26:15 2025 +0900
+
+    0325(화)_N과 M(4)
+
+[33mcommit fc5a5c55b8dbab92c14a61b2b8953623452b9b2f[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_15651[m[33m, [m[1;32mfeature/jimin/Baekjoon_15651[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Mon Mar 24 18:20:00 2025 +0900
+
+    0324(월)_N과 M(3)
+
+[33mcommit 6ae4fa79f7b6a4b0469e6213c2b2dc5b48f9f6bd[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_15650[m[33m, [m[1;32mfeature/jimin/Baekjoon_15650[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Sat Mar 22 21:47:13 2025 +0900
+
+    0322(토)_12세 이하인 여자 환자 목록 출력하기
+
+[33mcommit e4cbd164a89420c7e5156795551063ce8eb1be54[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Fri Mar 21 15:12:17 2025 +0900
+
+    0321(금)_N과 M(2)
+
+[33mcommit 2203662fd8f036ae4969a1685d143074a542daac[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_15649[m[33m, [m[1;32mfeature/jimin/Baekjoon_15649[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Thu Mar 20 22:46:09 2025 +0900
+
+    0320(목)_N과M(1)
+
+[33mcommit 57d9a42479861c48948c0e3892c86ae39112b654[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_9095_review[m[33m, [m[1;32mfeature/jimin/Baekjoon_9095_review[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Wed Mar 19 22:25:25 2025 +0900
+
+    0319(수)_1, 2, 3 더하기
+
+[33mcommit eef07ad2f64a871df22d9a3acfaef99ce4b3f2fc[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_1748[m[33m, [m[1;32mfeature/jimin/Baekjoon_1748[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Tue Mar 18 22:45:04 2025 +0900
+
+    0318(화)_수 이어 쓰기 1
+
+[33mcommit cd37544e2677284b33def2f3021ea3f017f44afb[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_6064[m[33m, [m[1;32mfeature/jimin/Baekjoon_6064[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Mon Mar 17 17:42:45 2025 +0900
+
+    0317(월)_카잉 달력 커밋
+
+[33mcommit d263cc297652d1c07d59fba68be985f14046423e[m[33m ([m[1;31morigin/feature/jimin/sql/133024[m[33m, [m[1;32mfeature/jimin/sql/133024[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Sat Mar 15 17:35:07 2025 +0900
+
+    0315(토)_인기있는 아이스크림 커밋
+
+[33mcommit 1ff3565bb349240f2f0e9ebe8b815e5024207999[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_14500[m[33m, [m[1;32mfeature/jimin/Baekjoon_14500[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Fri Mar 14 23:34:25 2025 +0900
+
+    0314(금)_테트로미노 커밋
+
+[33mcommit e5c0f972ef5896a90d3e0da6ef850455cba98edc[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_1107[m[33m, [m[1;32mfeature/jimin/Baekjoon_1107[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Thu Mar 13 23:41:39 2025 +0900
+
+    0313(목)_리모컨 커밋
+
+[33mcommit 64298ca735f2dbd7cb20eea393ebb1180f7c7b33[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_1476[m[33m, [m[1;32mfeature/jimin/Baekjoon_1476[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Wed Mar 12 23:03:04 2025 +0900
+
+    0312(수)_날짜 계산 커밋
+
+[33mcommit 722b0204d60f4351d97b3bb642c3eb6f0e552f59[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_3085[m[33m, [m[1;32mfeature/jimin/Baekjoon_3085[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Tue Mar 11 23:08:08 2025 +0900
+
+    0311(화)_사탕 게임 커밋
+
+[33mcommit 564a8261301fa8a42ec255942daa9925a0a0e69d[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_2309[m[33m, [m[1;32mfeature/jimin/Baekjoon_2309[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Mon Mar 10 17:16:24 2025 +0900
+
+    0310(월)_일곱 난쟁이 커밋
+
+[33mcommit e31d3702e43cc9e814959903a67f5660d33ba61b[m[33m ([m[1;31morigin/feature/jimin/sql/131112[m[33m, [m[1;32mfeature/jimin/sql/131112[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Sat Mar 8 22:21:26 2025 +0900
+
+    0308(토)_강원도에 위치한 생산공장 목록 출력하기 커밋
+
+[33mcommit aa2eb0a5060339bbf2a58098744d0c56b0615cc1[m[33m ([m[1;31morigin/feature/jimin/Bakjoon_17404[m[33m, [m[1;32mfeature/jimin/Bakjoon_2225[m[33m, [m[1;32mfeature/jimin/Bakjoon_17404[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Fri Mar 7 22:49:22 2025 +0900
+
+    0307(금)_합분해 리뷰 커밋
+
+[33mcommit 8d6ffb00532977a2603124684aa7d5e3bbf24360[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Thu Mar 6 21:26:07 2025 +0900
+
+    0306(목)_RGB 거리2 커밋.
+
+[33mcommit a6fbf1ad404685b76c6aa0f97db3d7cec1a32936[m[33m ([m[1;31morigin/feature/jimin/Bakjoon_1309[m[33m, [m[1;32mfeature/jimin/Bakjoon_1309[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Wed Mar 5 22:45:10 2025 +0900
+
+    0305(수)_동물원 리뷰 커밋
+
+[33mcommit 68b67de10bc95665be831cb0798479374680b0c9[m[33m ([m[1;31morigin/feature/jimin/Bakjoon_2133[m[33m, [m[1;32mfeature/jimin/Bakjoon_2133[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Tue Mar 4 23:35:06 2025 +0900
+
+    0304(화)_타일 채우기 커밋
+
+[33mcommit 923118fb10dc81f04ea51d892db5f1a44c3bfe0a[m[33m ([m[1;31morigin/feature/jimin/sql/133025[m[33m, [m[1;32mfeature/jimin/sql/133025[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Sat Mar 1 17:15:32 2025 +0900
+
+    0301(토)_과일로 만든 아이스크림 고르기 커밋
+
+[33mcommit 0b9ffeb8507326aafd7c2b8af042b693436e789a[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_13398[m[33m, [m[1;32mfeature/jimin/Baekjoon_13398[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Fri Feb 28 23:17:46 2025 +0900
+
+    0208(금)_연속합 2 커밋
+
+[33mcommit 90c84248a7765c2fce39a4a1e3fe8c6b65a04d13[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_11054[m[33m, [m[1;32mfeature/jimin/Baekjoon_11054[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Thu Feb 27 21:49:51 2025 +0900
+
+    0227(목)_가장 긴 바이토닉 부분 수열 커밋
+
+[33mcommit cd3335abf4ad9da3a81c725600c8639c5fbc6fc3[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_11722[m[33m, [m[1;32mfeature/jimin/Baekjoon_11722[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Wed Feb 26 13:58:11 2025 +0900
+
+    0226(수)_가장 긴 감소하는 부분 수열 커밋
+
+[33mcommit e8b420795ab80944f203b1c65f457253b84f47ef[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_11055[m[33m, [m[1;32mfeature/jimin/Baekjoon_11055[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Tue Feb 25 23:19:12 2025 +0900
+
+    0225(화)_가장 큰 증가하는 부분 수열 커밋
+
+[33mcommit 8ab15e97c17bbd36d3a8e96c72d416624ee9fc83[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_1932[m[33m, [m[1;32mfeature/jimin/Baekjoon_1932[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Mon Feb 24 18:23:43 2025 +0900
+
+    0224(월)_정수 삼각형 커밋
+
+[33mcommit 6f0275b85c2fb3edbdda521d107f3271ee46d0f2[m[33m ([m[1;31morigin/feature/jimin/sql/132203[m[33m, [m[1;32mfeature/jimin/sql/132203[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Sat Feb 22 18:37:34 2025 +0900
+
+    0222(토)_흉부외과 또는 일반외과 의사 목록 출력하기 커밋
+
+[33mcommit 0b918d9ec2258c26b235de12f162d1c6cf12cbae[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_2156[m[33m, [m[1;32mfeature/jimin/Baekjoon_2156[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Fri Feb 21 21:55:08 2025 +0900
+
+    02.21(금)_포도주 시식 커밋
+
+[33mcommit c779dc5bf43f0a62ec15bb6726e2d49dbe5f1899[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_9465[m[33m, [m[1;32mfeature/jimin/Baekjoon_9465[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Thu Feb 20 23:11:53 2025 +0900
+
+    0220(목)_스티커 커밋
+
+[33mcommit c25b25200be13efa9887549749ae5a7d80fcefa7[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_11057[m[33m, [m[1;32mfeature/jimin/Baekjoon_11057[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Wed Feb 19 22:17:09 2025 +0900
+
+    0219(수)_오르막 수 커밋
+
+[33mcommit 86d9aa697664b6a6a4d32903b1d091e2d4d5b9a1[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_1309[m[33m, [m[1;32mfeature/jimin/Baekjoon_1309[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Tue Feb 18 21:50:23 2025 +0900
+
+    0218(화)_동물원 커밋
+
+[33mcommit 85a7419a89a6fbc23260be49b2f49ca3fd9a6207[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_1149[m[33m, [m[1;32mfeature/jimin/Baekjoon_1149[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Mon Feb 17 18:16:44 2025 +0900
+
+    0217(월)_RGB 거리 커밋
+
+[33mcommit 5f3a04ce2572de2a8a4fe60006957cef94426d57[m[33m ([m[1;31morigin/feature/jimin/sql/131118[m[33m, [m[1;32mfeature/jimin/sql/131118[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Sat Feb 15 20:59:45 2025 +0900
+
+    0215(토)_서울에 위치한 식당 목록 출력하기 커밋
+
+[33mcommit dd4cc822db9867c3643daab14b5d86d41f41f89f[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_15988[m[33m, [m[1;32mfeature/jimin/Baekjoon_15988[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Fri Feb 14 23:35:20 2025 +0900
+
+    0214(금)_1,2,3 더하기 3 커밋.
+
+[33mcommit c097eebfa3316a3d3ff9e49d242697f6a9001e47[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_2225[m[33m, [m[1;32mfeature/jimin/Baekjoon_2225[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Thu Feb 13 23:56:05 2025 +0900
+
+    0213(목)_합분해 커밋
+
+[33mcommit 6491a513eb2ad5ebd68f93c76c329d91b91acb08[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_1699[m[33m, [m[1;32mfeature/jimin/Baekjoon_1699[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Wed Feb 12 21:55:47 2025 +0900
+
+    0212(수)_제곱수의 합 커밋
+
+[33mcommit 6fbde3325c6ccea9d4fc365804bbcdd5df2faee4[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_1912[m[33m, [m[1;32mfeature/jimin/Baekjoon_1912[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Tue Feb 11 23:04:22 2025 +0900
+
+    0211(화)_연속합 커밋
+
+[33mcommit e2d20306aea97d65309ef3b5beaab451691f5fc4[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_14002[m[33m, [m[1;32mfeature/jimin/Baekjoon_14002[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Sat Feb 8 22:20:27 2025 +0900
+
+    0210(월)_가장 긴 증가하는 부분 수열 4 커밋
+
+[33mcommit 37785baadf11b6758ce395ddaf6808d365f55e77[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_11053[m[33m, [m[1;32mfeature/jimin/Baekjoon_11053[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Fri Feb 7 20:31:56 2025 +0900
+
+    0207(금)_가장 긴 증가하는 부분 수열_ 커밋
+
+[33mcommit 1c93404a03a3dc600f8343fc7ca202db28b9f9f8[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_2193[m[33m, [m[1;32mfeature/jimin/Baekjoon_2193[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Thu Feb 6 22:36:44 2025 +0900
+
+    0206(목)_이친수_정답
+
+[33mcommit 1c8c7f71a37be14e540b04370f05a44599b870e3[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Thu Feb 6 22:35:49 2025 +0900
+
+    0206(목)_이친수_틀림
+
+[33mcommit 7f260e195b51c0b97b70f73277fdee34c80c3d85[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_10844[m[33m, [m[1;32mfeature/jimin/Baekjoon_10844[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Wed Feb 5 23:21:28 2025 +0900
+
+    0205(수요일)_쉬운 계단 수
+
+[33mcommit 053c66f2ecdb31115fabb28ca0867ebd3694b5fc[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_15990[m[33m, [m[1;32mfeature/jimin/Baekjoon_15990[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Tue Feb 4 23:53:22 2025 +0900
+
+    0204(화요일)_1,2,3더하기 5
+
+[33mcommit c771c492da9cb440d579814cd104e9ec5aa3dfd6[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_16194[m[33m, [m[1;32mfeature/jimin/Baekjoon_16194[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Fri Jan 31 18:21:17 2025 +0900
+
+    0131_카드 구매하기2_커밋
+
+[33mcommit 5dabd02ad1a70e8a14414a0b24318861e1bd4ba7[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_11052[m[33m, [m[1;32mfeature/jimin/Baekjoon_11052[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Fri Jan 24 21:24:19 2025 +0900
+
+    0124(금)_카드 구매하기_성공
+
+[33mcommit 44dcbc960ea8709d9ca7eaee087e7b818ea85c68[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_9095[m[33m, [m[1;32mfeature/jimin/Baekjoon_9095[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Thu Jan 23 23:01:06 2025 +0900
+
+    0123_목요일_1, 2, 3 더하기_성공
+
+[33mcommit 320f021aa3168c78c10a3cef129a17aa30c3b5e1[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Thu Jan 23 22:58:15 2025 +0900
+
+    0123_목요일_1, 2, 3 더하기_실패
+
+[33mcommit 4c61fbfa7bbe2bc295ae48d47b988aa92a7cfbaf[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_11727[m[33m, [m[1;32mfeature/jimin/Baekjoon_11727[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Wed Jan 22 21:19:59 2025 +0900
+
+    0122(수)_2×n 타일링 2_커밋
+
+[33mcommit 8179179d3b441a23212790addb3d30352065a8c4[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_11726[m[33m, [m[1;32mfeature/jimin/Baekjoon_11726[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Tue Jan 21 22:51:22 2025 +0900
+
+    0121(화)_2×n 타일링_성공
+
+[33mcommit 0fba11bd3ab387a31d2e59aa98f185a87c21f91b[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Tue Jan 21 22:29:01 2025 +0900
+
+    0121(화)_2×n 타일링_실패
+
+[33mcommit 4317b6f7e988cd369a2cc5d5406398c95590b9d9[m[33m ([m[1;31morigin/feature/jimin/sql/144856[m[33m, [m[1;32mfeature/jimin/sql/144856[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Mon Jan 20 17:55:32 2025 +0900
+
+    0120_저자 별 카테고리 별 매출액 집계하기 커밋
+
+[33mcommit 46ec49dd2daf562e90dd22bee9c6b2044bc48da6[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_1463[m[33m, [m[1;32mfeature/jimin/Baekjoon_1463[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Fri Jan 17 19:50:25 2025 +0900
+
+    1월 17일 1로 만들기_성공
+
+[33mcommit c63be5009f6c2fa07aac9190b08190da50ab3542[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Fri Jan 17 19:47:21 2025 +0900
+
+    1월 17일 1로 만들기_실패
+
+[33mcommit 3d7bd2e3b8ccbf55b2b19e5a6b910216fee2f3bd[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_17103[m[33m, [m[1;32mfeature/jimin/Baekjoon_17103[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Thu Jan 16 23:06:03 2025 +0900
+
+    골드바흐 파티션_정답
+
+[33mcommit 92c6fdcf59c56cc2ae1f1165c3945995da9ed6c5[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Thu Jan 16 23:05:37 2025 +0900
+
+    골드바흐 파티션_오답
+
+[33mcommit d00c41cded34e3707c855a6d1c00154e599ac23a[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_2089[m[33m, [m[1;32mfeature/jimin/Baekjoon_2089[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Wed Jan 15 15:21:48 2025 +0900
+
+    -2진수
+
+[33mcommit f530870a627c62753a162086692ce83cfa3119e0[m[33m ([m[1;31morigin/feature/jimin/Baekjoon_1212[m[33m, [m[1;32mfeature/jimin/Baekjoon_1212[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Tue Jan 14 21:52:11 2025 +0900
+
+    8진수 2진수
+
+[33mcommit bd70d5cdef199d1c450b1a0eb2e2ddda8b109f0d[m[33m ([m[1;31morigin/feature/jimin/sql/151136[m[33m, [m[1;32mfeature/jimin/sql/151136[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Mon Jan 13 15:50:27 2025 +0900
+
+    1월13일_SQL 문제 커밋
+
+[33mcommit 3d3bf17e1159e16a60082175054fe0e1ee4d5d05[m[33m ([m[1;31morigin/feature/jimin/baekjoon_1373[m[33m, [m[1;32mfeature/jimin/baekjoon_1373[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Fri Jan 10 18:16:24 2025 +0900
+
+    1월10일 코테 커밋
+
+[33mcommit cbce3a1b6801bc4c2a189272ce40d24665341c2b[m[33m ([m[1;31morigin/feature/jimin/baekjoon_17087[m[33m, [m[1;32mfeature/jimin/baekjoon_17087[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Thu Jan 9 22:09:28 2025 +0900
+
+    01/09_코테
+
+[33mcommit 39aa0b93c4a4af708d82d9cac9cefdd0afee7240[m[33m ([m[1;31morigin/feature/jimin/baekjoon_9613[m[33m, [m[1;32mfeature/jimin/baekjoon_9613[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Wed Jan 8 22:34:59 2025 +0900
+
+    정답!_백준 9613문제_김지민
+
+[33mcommit 1ee4f81958c5aa95fad4cb1176141569557de0ea[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Wed Jan 8 22:26:26 2025 +0900
+
+    런타임에러
+
+[33mcommit 7c60334d0eaa6444a60bb9d42d8044400ec49505[m[33m ([m[1;31morigin/feature/jimin/baekjoon_2004[m[33m, [m[1;32mfeature/jimin/baekjoon_2004[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Tue Jan 7 21:39:16 2025 +0900
+
+    pr 잘못 전송해서 커밋
+
+[33mcommit 46f962b560b5a0ffa1c625f59bccdc694bc30c65[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Tue Jan 7 21:23:04 2025 +0900
+
+    재 pr
+
+[33mcommit 8dbcef38c2490cff81273c871dc6d2f34ce93cdd[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Tue Jan 7 14:30:22 2025 +0900
+
+    2025/01/07(Tue) 백준 2004번/ 김지민 /커밋
+
+[33mcommit ea0ea8c289427de7533e13b6666792839e899c4a[m[33m ([m[1;31morigin/feature/jimin/baekjoon_13414[m[33m, [m[1;32mfeature/jimin/baekjoon_13414[m[33m)[m
+Author: Kim06 <Kim06@jimin_noteBook>
+Date:   Mon Jan 6 21:20:27 2025 +0900
+
+    커밋 확인
+
+[33mcommit 58e8fa9f39f6f39ce276d7a090eede63b00d9d57[m
+Merge: 841ad2c a24c966
+Author: SunyoungBae <baesaa0304@naver.com>
+Date:   Mon Jan 6 19:16:37 2025 +0900
+
+    Merge pull request #1 from baesaa0304/feature/sunuong/baekjoon_13414
+    
+    Feature/sunuong/baekjoon 13414
+
+[33mcommit a24c966dc015ad827c034291397818efe7be66c1[m
+Author: baesaa0304 <baesaa0304@naver.com>
+Date:   Mon Dec 30 16:38:56 2024 +0900
+
+    수
+
+[33mcommit 48228a16a89295b35d6a215acccfb97fef170034[m
+Author: baesaa0304 <baesaa0304@naver.com>
+Date:   Mon Dec 30 15:32:13 2024 +0900
+
+    feat : 틀린 문제 12월 30일
+
+[33mcommit 5f5df65b9b38232603f1ad3eb6a05bbc09860e91[m
+Author: baesaa0304 <baesaa0304@naver.com>
+Date:   Mon Dec 30 15:19:28 2024 +0900
+
+    feat : 오늘 문제 12월 30일 커밋
+
+[33mcommit 841ad2c3b5f61c80cdddf618806ec32854767ef2[m
+Author: baesaa0304 <baesaa0304@naver.com>
+Date:   Mon Dec 30 15:01:09 2024 +0900
+
+    feat : gitgnore 추가
+
+[33mcommit 849b1a7c206b22546911ee2fa7fe347242f7c247[m
+Author: baesaa0304 <baesaa0304@naver.com>
+Date:   Mon Dec 30 14:55:09 2024 +0900
+
+    feat : 깃허브 알고리즘 레포생성
+
+[33mcommit d3096ffbbc396e892c2a9a8c9455fcc27959d605[m
+Author: SunyoungBae <baesaa0304@naver.com>
+Date:   Sun Dec 29 22:51:57 2024 +0900
+
+    Initial commit
