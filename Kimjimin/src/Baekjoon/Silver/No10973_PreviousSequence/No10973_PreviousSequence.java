@@ -1,3 +1,4 @@
+
 package Baekjoon.Silver.No10973_PreviousSequence;
 
 import java.io.*;

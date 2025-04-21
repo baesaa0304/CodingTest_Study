@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+/Users/pearlinezero/CodingTest_Study/.metadata/.plugins/org.eclipse.jdt.core
-1072787110.index
-4108448570.index
-1865797976.index

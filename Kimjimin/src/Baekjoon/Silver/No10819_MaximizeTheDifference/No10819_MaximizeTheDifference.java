@@ -1,3 +1,4 @@
+
 package Baekjoon.Silver.No10819_MaximizeTheDifference;
 
 import java.io.*;
