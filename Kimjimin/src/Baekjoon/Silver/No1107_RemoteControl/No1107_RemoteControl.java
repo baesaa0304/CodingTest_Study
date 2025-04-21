@@ -1,3 +1,4 @@
+
 package Baekjoon.Silver.No1107_RemoteControl;
 
 import java.util.Scanner;

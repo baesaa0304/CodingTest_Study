@@ -1,3 +1,4 @@
+
 package Baekjoon.Bronze.No2309_SevenDwarfs;
 
 import java.util.Arrays;
@@ -34,3 +35,4 @@ public class No2309_SevenDwarfs {
 
 }
 }
+

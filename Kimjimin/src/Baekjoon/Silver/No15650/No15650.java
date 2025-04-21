@@ -1,3 +1,4 @@
+
 package Baekjoon.Silver.No15650;
 
 import java.io.*;

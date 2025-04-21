@@ -1,3 +1,4 @@
+
 package Baekjoon.Silver;
 
 import java.util.Scanner;

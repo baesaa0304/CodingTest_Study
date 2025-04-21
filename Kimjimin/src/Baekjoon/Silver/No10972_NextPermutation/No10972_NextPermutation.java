@@ -1,3 +1,4 @@
+
 package Baekjoon.Silver.No10972_NextPermutation;
 
 import java.io.*;
