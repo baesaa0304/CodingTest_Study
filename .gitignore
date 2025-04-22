@@ -1,2 +1,5 @@
 .DS_Store-Baesunyoung
 .metadata/
+.settings/
+.metadata/
+*.log
