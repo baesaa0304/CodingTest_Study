@@ -1,7 +1,7 @@
 package Baekjoon.Gold.baekjoon_1759;
 import java.io.*;
 import java.util.*;
-public class baekjoon_1759 {
+public class baekjoon_1759_1 {
 	static int L, C;
     static char[] input;
     static boolean[] visited;
