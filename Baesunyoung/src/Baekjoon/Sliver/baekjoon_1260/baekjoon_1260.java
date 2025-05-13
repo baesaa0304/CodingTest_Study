@@ -65,12 +65,12 @@ public class baekjoon_1260 {
         bfs.append(n).append(" ");
 
         while (!queue.isEmpty()) {
-            int node = queue.poll();
+            int node = queue.poll(); // 맨 앞 노드 빼주
 
             for (int next : graph.get(node)) {
                 if (!visited[next]) {
                     visited[next] = true;
-                    queue.offer(next);
+                    queue.offer(next); //노드 추
                     bfs.append(next).append(" ");
                 }
             }
